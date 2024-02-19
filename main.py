@@ -7,5 +7,6 @@ print("4 = conversor de distancia")
 
 entrada = int(input ("qual conversor irá usar?"))
 
-#redirecionamento apartir da entrada
-
+#redirecionamento a partir da entrada
+if entrada == 1:
+    exec(open("conver_temperatura.py"))
