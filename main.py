@@ -22,5 +22,7 @@ while True:
         exec(open("conversor_de_distancia").read())
         break
     else:
-        print("Valor invalido")
+        print("______________________")
+        print("____valor invalido____")
+        print("______________________")
 
