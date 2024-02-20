@@ -61,12 +61,12 @@ while True:
 if valor1 == 1 and valor2 == 2:
     Temperatura = kelvin_valor - 273.15
     print("_______________________________________________")
-    print("A temperatura em celsius e de:{:.2f}".format(Temperatura))
+    print("A temperatura em Celsius e de:{:.2f}".format(Temperatura))
     print("_______________________________________________")
 elif valor1 == 2 and valor2 == 1:
     Temperatura = celsius_valor +273.15
     print("_______________________________________________")
-    print("A temperatura em kelvin e de: {:.2f}".format(Temperatura))
+    print("A temperatura em Kelvin e de: {:.2f}".format(Temperatura))
     print("_______________________________________________")
 
 if valor1 == 1 and valor2 == 3:
@@ -74,8 +74,20 @@ if valor1 == 1 and valor2 == 3:
     print("_______________________________________________")
     print("A temperatura em Fahrenhet e de:{:.2f}".format(Temperatura))
     print("_______________________________________________")
+
 elif valor1 == 3 and valor2 == 1:
     Temperatura = (fahrenhet_valor + 459.67) * 5/9
     print("_______________________________________________")
-    print("A temperatura em kelvin e de: {:.2f}".format(Temperatura))
+    print("A temperatura em Kelvin e de: {:.2f}".format(Temperatura))
+    print("_______________________________________________")
+
+if valor1 == 2 and valor2 ==3:
+    Temperatura = celsius_valor * 9/5 + 32
+    print("_______________________________________________")
+    print("A temperatura em Fahrenhet e de: {:.2f}".format(Temperatura))
+    print("_______________________________________________")
+if valor1 == 3 and valor2 ==2:
+    Temperatura = (fahrenhet_valor - 32) * 5/9
+    print("_______________________________________________")
+    print("A temperatura em Celsius e de: {:.2f}".format(Temperatura))
     print("_______________________________________________")
