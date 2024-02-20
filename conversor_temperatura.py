@@ -12,8 +12,16 @@ while True:
         print("3 = Fahrenhet (F)")
 
         #entrda
-        valor1 = input ("Primeira unidade: ")
+        valor1 = float(input ("Primeira unidade: "))
         
+        #entrada do valor de medida
+        if valor1 == 1:
+            kelvin_valor = float(input("Valor de Kelvin:"))
+        elif valor1  == 2:
+            celsius_valor = float(input("Valor de Celsius"))
+        elif valor1 == 3:
+            fahrenhet_valor = float(input("Valor de Fahrenhet"))
+
         #verificação de numero valido
         if valor1 == 1 or 2 or 3:
             break
@@ -21,14 +29,6 @@ while True:
             print("______________________")
             print("____valor invalido____")
             print("______________________")
-
-        #entrada do valor de medida
-        if valor1 == "1":
-            kelvin_valor = input("Valor de Kelvin:")
-        elif valor1  == "2":
-            celsius_valor = input("Valor de Celsius")
-        elif valor1 == "3":
-            fahrenhet_valor = input("Valor de Fahrenhet")
 
 
     #segundo valor de entrada de valor
@@ -39,8 +39,7 @@ while True:
         print("3 = Fahrenhet (F)")
 
         #entrda
-        valor2 = input ("converter para: ")
-
+        valor2 = float(input ("converter para: "))
 
         #verificação de numero valido
         if valor2 == 1 or 2 or 3:
@@ -48,15 +47,7 @@ while True:
         else:
             print("______________________")
             print("____valor invalido____")
-            print("______________________")
-
-        #entrada do valor de medida
-        if valor1 == "1":
-            kelvin_valor = input("Valor de Kelvin:")
-        elif valor1  == "2":
-            celsius_valor = input("Valor de Celsius")
-        elif valor1 == "3":
-            fahrenhet_valor = input("Valor de Fahrenhet")    
+            print("______________________")    
 
     #comparando se os parametros são diferentes
     if valor1 == valor2:
@@ -65,3 +56,7 @@ while True:
         print("_______________________________________________")
     else:
         break
+
+if valor1 == 1 and valor2 == 2:
+    Temperatura = kelvin_valor - 273.15
+    print("Valor em celsius:{:.2f}".format(Temperatura))
