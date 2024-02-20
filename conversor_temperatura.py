@@ -18,9 +18,9 @@ while True:
         if valor1 == 1:
             kelvin_valor = float(input("Valor de Kelvin:"))
         elif valor1  == 2:
-            celsius_valor = float(input("Valor de Celsius"))
+            celsius_valor = float(input("Valor de Celsius:"))
         elif valor1 == 3:
-            fahrenhet_valor = float(input("Valor de Fahrenhet"))
+            fahrenhet_valor = float(input("Valor de Fahrenhet:"))
 
         #verificação de numero valido
         if valor1 == 1 or 2 or 3:
@@ -57,6 +57,25 @@ while True:
     else:
         break
 
+#_________Formulas de conversão_________
 if valor1 == 1 and valor2 == 2:
     Temperatura = kelvin_valor - 273.15
-    print("Valor em celsius:{:.2f}".format(Temperatura))
+    print("_______________________________________________")
+    print("A temperatura em celsius e de:{:.2f}".format(Temperatura))
+    print("_______________________________________________")
+elif valor1 == 2 and valor2 == 1:
+    Temperatura = celsius_valor +273.15
+    print("_______________________________________________")
+    print("A temperatura em kelvin e de: {:.2f}".format(Temperatura))
+    print("_______________________________________________")
+
+if valor1 == 1 and valor2 == 3:
+    Temperatura = kelvin_valor * 9/5 - 453.67
+    print("_______________________________________________")
+    print("A temperatura em Fahrenhet e de:{:.2f}".format(Temperatura))
+    print("_______________________________________________")
+elif valor1 == 3 and valor2 == 1:
+    Temperatura = (fahrenhet_valor + 459.67) * 5/9
+    print("_______________________________________________")
+    print("A temperatura em kelvin e de: {:.2f}".format(Temperatura))
+    print("_______________________________________________")
