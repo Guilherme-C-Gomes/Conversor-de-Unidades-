@@ -26,15 +26,15 @@ while True:
             try:
                 if valor1 == 1:
                     print("_____________________________________")
-                    kelvin_valor = float(input("Valor de Kelvin:"))
+                    kelvin_valor = float(input("Insira valor de Kelvin:"))
                     break
                 elif valor1  == 2:
                     print("_____________________________________")
-                    celsius_valor = float(input("Valor de Celsius:"))
+                    celsius_valor = float(input("Insira valor de Celsius:"))
                     break
                 elif valor1 == 3:
                     print("_____________________________________")
-                    fahrenhet_valor = float(input("Valor de Fahrenhet:"))
+                    fahrenhet_valor = float(input("Insira valor de Fahrenhet:"))
                     break
             except ValueError:
                 print("_______________________________________")
