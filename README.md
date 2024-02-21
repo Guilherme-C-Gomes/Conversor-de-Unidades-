@@ -20,13 +20,37 @@ O Conversor de Medidas é um programa interativo que solicita ao usuário que es
 3. Execute o arquivo `main.py` para iniciar o programa.
 4. Siga as instruções no terminal para selecionar o tipo de conversão desejada e inserir os valores para conversão.
 
+## Exemplos de Uso
+
+Aqui estão alguns exemplos de como utilizar o Conversor de Medidas:
+
+### Conversão de Temperatura
+
+Para converter uma temperatura de Kelvin para Celsius, insira o valor em Kelvin quando solicitado e o programa calculará automaticamente a temperatura equivalente em Celsius.
+
+![Exemplo de Conversão de Temperatura](exemplos/conversor_temperatura.png)
+
+### Conversão de Altura
+
+Para converter uma altura de metros para pés, insira o valor em metros quando solicitado e o programa calculará automaticamente a altura equivalente em pés.
+
+![Exemplo de Conversão de Altura](exemplos/conversor_altura.png)
+
+### Conversão de Peso
+
+Para converter um peso de quilogramas para libras, insira o valor em quilogramas quando solicitado e o programa calculará automaticamente o peso equivalente em libras.
+
+![Exemplo de Conversão de Peso](exemplos/conversor_peso.png)
+
+### Conversão de Distância
+
+Para converter uma distância de metros para quilômetros, insira o valor em metros quando solicitado e o programa calculará automaticamente a distância equivalente em quilômetros.
+
+![Exemplo de Conversão de Distância](exemplos/conversor_distancia.png)
+
 ## Tecnologias Utilizadas
 
 - Python 3.x
 - Controle de Fluxo com `while`
 - Manipulação de Arquivos
 - Tratamento de Exceções
-
-## Contribuição
-
-Contribuições são bem-vindas! Se você tiver sugestões de melhorias, correções de bugs ou novas funcionalidades, sinta-se à vontade para enviar uma solicitação de pull request ou abrir uma nova issue neste repositório.
