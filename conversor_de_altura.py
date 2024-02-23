@@ -25,10 +25,12 @@ while True:
             pes_valor = metros_valor * 3.28084
             print("___________________________")
             print("Tamanho em Pés e de: {:.2f}".format(pes_valor))
+            break
         else:
             metros_valor = pes_valor * 0.3048
             print("___________________________")
             print("Tamanho em Metros e de: {:.2f}".format(metros_valor))
+            break
 
 
     except ValueError:
