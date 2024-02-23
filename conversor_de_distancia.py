@@ -24,12 +24,12 @@ while True:
         if valor1 == 1:
             milhas_valor = kilometros_valor * 0.621371
             print("___________________________")
-            print("Tamanho em Pés e de: {:.2f}".format(milhas_valor))
+            print("Tamanho em milhas é de: {:.2f}".format(milhas_valor))
             break
         else:
             kilometros_valor = milhas_valor * 1.60934
             print("___________________________")
-            print("Tamanho em Metros e de: {:.2f}".format(kilometros_valor))
+            print("Tamanho em kilometros é de: {:.2f}".format(kilometros_valor))
             break
 
 

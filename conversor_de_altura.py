@@ -13,7 +13,7 @@ while True:
                     break
                 else:
                     print("_________________________")
-                    pes_valor = float(input("Insira a altura em metros: "))
+                    pes_valor = float(input("Insira a altura em pés: "))
                     valor2 = 1
                     break
             except ValueError:
@@ -24,12 +24,12 @@ while True:
         if valor1 == 1:
             pes_valor = metros_valor * 3.28084
             print("___________________________")
-            print("Tamanho em Pés e de: {:.2f}".format(pes_valor))
+            print("Tamanho em Pés é de: {:.2f}".format(pes_valor))
             break
         else:
             metros_valor = pes_valor * 0.3048
             print("___________________________")
-            print("Tamanho em Metros e de: {:.2f}".format(metros_valor))
+            print("Tamanho em Metros é de: {:.2f}".format(metros_valor))
             break
 
 
