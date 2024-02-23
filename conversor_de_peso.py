@@ -17,7 +17,7 @@ while True:
                     kilos_valor = float(input("Insira o valor de Kilos: "))
                     valor2 = 2
                     break
-                elif valor1 == 2:
+                else:
                     print("_________________________")
                     libras_valor = float(input("Insira o valor de Libras"))
                     valor2 = 1
@@ -28,14 +28,14 @@ while True:
                 print("_______________________________________")
 
         if valor1 == 1:
-            kilos_valor = kilos_valor * 2.205
+            libras_valor = kilos_valor * 2.205
             print("___________________________")
-            print("Valor em Libras e de: {:.2f}".format(kilos_valor))
+            print("Valor em Libras e de: {:.2f}".format(libras_valor))
             break
         else:
-            libras_valor = libras_valor * 0.453592
+            kilos_valor = libras_valor * 0.453592
             print("___________________________")
-            print("Valor em Kilos e de: {:.2f}".format(libras_valor))
+            print("Valor em Kilos e de: {:.2f}".format(kilos_valor))
             break
 
         
