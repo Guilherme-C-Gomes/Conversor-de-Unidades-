@@ -20,7 +20,7 @@ while True:
             exec(open("conversor_de_peso.py").read())
             break
         elif entrada == 4:
-            exec(open("conversor_de_distancia").read())
+            exec(open("conversor_de_distancia.py").read())
             break
         else:
             print("______________________")
