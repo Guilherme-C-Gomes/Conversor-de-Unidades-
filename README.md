@@ -28,7 +28,7 @@ Aqui estão alguns exemplos de como utilizar o Conversor de Medidas:
 
 Para converter uma temperatura de Kelvin para Celsius, insira o valor em Kelvin quando solicitado e o programa calculará automaticamente a temperatura equivalente em Celsius.
 
-![Exemplo de Conversão de Temperatura](exemplos/conversor_temperatura.png)
+![Exemplo de Conversão de Temperatura]<img src="https://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" />
 
 ### Conversão de Altura
 
