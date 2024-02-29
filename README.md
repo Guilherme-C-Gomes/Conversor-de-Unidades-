@@ -17,8 +17,7 @@ O Conversor de Medidas é um programa interativo que solicita ao usuário que es
 
 1. Clone este repositório em sua máquina local.
 2. Navegue até o diretório do projeto.
-3. Execute o arquivo `main.py` para iniciar o programa.![temperatura](https://github.com/Guilherme-C-Gomes/Conversor-de-Unidades-/assets/114948269/5835c014-7ff6-4b5a-a12d-07f6c6fb98b9)
-
+3. Execute o arquivo `main.py` para iniciar o programa.
 4. Siga as instruções no terminal para selecionar o tipo de conversão desejada e inserir os valores para conversão.
 
 ## Exemplos de Uso
@@ -29,32 +28,37 @@ Aqui estão alguns exemplos de como utilizar o Conversor de Medidas:
 
 Para converter uma temperatura de Kelvin para Celsius, insira o valor em Kelvin quando solicitado e o programa calculará automaticamente a temperatura equivalente em Celsius.
 
-
 [Exemplo de Conversão de Temperatura]
 
-![Uploading temperatura.gif…]()
-
-<img src="https://drive.google.com/file/d/16DpiyaFAxj8a1JNVuyOnMEisxSY2E4cP/view?usp=drive_link" alt="this slowpoke moves"  width="250" />
-
+![temperatura](https://github.com/Guilherme-C-Gomes/Conversor-de-Unidades-/assets/114948269/fbec1369-76fa-4f07-ba2b-4bc999a27821)
 
 
 ### Conversão de Altura
 
 Para converter uma altura de metros para pés, insira o valor em metros quando solicitado e o programa calculará automaticamente a altura equivalente em pés.
 
-![Exemplo de Conversão de Altura](temperatura.gif)
+[Exemplo de Conversão de altura]
+
+![altura](https://github.com/Guilherme-C-Gomes/Conversor-de-Unidades-/assets/114948269/93bf18c5-f2a8-446c-9dc7-ee2b9949cb11)
+
 
 ### Conversão de Peso
 
 Para converter um peso de quilogramas para libras, insira o valor em quilogramas quando solicitado e o programa calculará automaticamente o peso equivalente em libras.
 
-![Exemplo de Conversão de Peso](exemplos/conversor_peso.png)
+[Exemplo de Conversão de Peso]
+
+![peso](https://github.com/Guilherme-C-Gomes/Conversor-de-Unidades-/assets/114948269/b560749d-a8f1-4721-99fd-fe29be3a72f1)
+
 
 ### Conversão de Distância
 
 Para converter uma distância de metros para quilômetros, insira o valor em metros quando solicitado e o programa calculará automaticamente a distância equivalente em quilômetros.
 
-![Exemplo de Conversão de Distância](exemplos/conversor_distancia.png)
+[Exemplo de Conversão de Distância]
+
+![distancia](https://github.com/Guilherme-C-Gomes/Conversor-de-Unidades-/assets/114948269/7d93fa10-7d17-4394-a59c-b118d358271f)
+
 
 ## Tecnologias Utilizadas
 
