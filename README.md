@@ -17,7 +17,8 @@ O Conversor de Medidas é um programa interativo que solicita ao usuário que es
 
 1. Clone este repositório em sua máquina local.
 2. Navegue até o diretório do projeto.
-3. Execute o arquivo `main.py` para iniciar o programa.
+3. Execute o arquivo `main.py` para iniciar o programa.![temperatura](https://github.com/Guilherme-C-Gomes/Conversor-de-Unidades-/assets/114948269/5835c014-7ff6-4b5a-a12d-07f6c6fb98b9)
+
 4. Siga as instruções no terminal para selecionar o tipo de conversão desejada e inserir os valores para conversão.
 
 ## Exemplos de Uso
@@ -30,6 +31,8 @@ Para converter uma temperatura de Kelvin para Celsius, insira o valor em Kelvin 
 
 
 [Exemplo de Conversão de Temperatura]
+
+![Uploading temperatura.gif…]()
 
 <img src="https://drive.google.com/file/d/16DpiyaFAxj8a1JNVuyOnMEisxSY2E4cP/view?usp=drive_link" alt="this slowpoke moves"  width="250" />
 
