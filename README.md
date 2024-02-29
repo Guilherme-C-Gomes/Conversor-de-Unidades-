@@ -31,7 +31,7 @@ Para converter uma temperatura de Kelvin para Celsius, insira o valor em Kelvin 
 
 [Exemplo de Conversão de Temperatura]
 
-<img src="https://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" />
+<img src="https://drive.google.com/file/d/16DpiyaFAxj8a1JNVuyOnMEisxSY2E4cP/view?usp=drive_link" alt="this slowpoke moves"  width="250" />
 
 
 
