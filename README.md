@@ -39,7 +39,7 @@ Para converter uma temperatura de Kelvin para Celsius, insira o valor em Kelvin 
 
 Para converter uma altura de metros para pés, insira o valor em metros quando solicitado e o programa calculará automaticamente a altura equivalente em pés.
 
-![Exemplo de Conversão de Altura](exemplos/conversor_altura.png)
+![Exemplo de Conversão de Altura](temperatura.gif)
 
 ### Conversão de Peso
 
